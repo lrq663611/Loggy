@@ -1,0 +1,273 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{
+	font-family:'Raleway', sans-serif;;
+	color:#33363b;
+}
+
+input, textarea, select, label{
+   font-family: inherit;
+   font-size: inherit;
+   color: inherit;
+}
+input, select, textarea{
+    -ms-box-sizing:content-box;
+    -moz-box-sizing:content-box;
+    box-sizing:content-box;
+    -webkit-box-sizing:content-box; 
+}
+input[name=human]{
+	display:none;
+}
+ul{
+	list-style: disc;
+	margin-left: 3em;
+}
+li{
+	line-height: 25px;
+}
+b{
+	font-weight:600;
+}
+h1{
+	font-size:26px;
+}
+h2{
+	font-size:25px;
+}
+.h3-header{
+	font-size:20px;
+	font-weight:600;
+	margin-bottom:20px;
+}
+body{
+	min-width:1550px;/*1350 width + 100 padding + 100padding*/
+	/*to prevent page being cut off when shrink and scroll horizontally*/
+}
+.full-width-container{
+	width: 1350px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+.add-padding-width {
+	padding-left: 100px;
+	padding-right: 100px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.add-padding-height{
+	padding-top:60px;
+	padding-bottom:60px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+a{
+	text-decoration:none;
+}
+p{
+	font-size:16px;
+	margin-bottom:15px;
+	line-height: 25px;
+}
+.text-align-center{
+	text-align:center;
+}
+.gray-btn{
+	background-color: #5c5f64;
+	line-height: 250%;
+	text-align: center;
+	color: #fff;
+	cursor:pointer;
+}
+.orange-btn{
+	background-color: #ed5622;
+	line-height: 40px;
+	height:40px;
+	text-align: center;
+	color: #fff;
+	cursor:pointer;
+}
+[type=submit]{
+	border: 0;
+}
+.public-form input, .public-form select, .public-form textarea{
+	width: 600px; 
+	padding: 10px;
+}
+.public-form [type=submit], .public-form [type=checkbox], .public-form [type=radio]{
+	width: auto; 
+	padding: inherit;
+}
+.public-form [type=submit]{
+    -webkit-appearance: none;
+    -webkit-border-radius:0;
+}	
+
+/*home page********************************************************************************************************/
+.home-left-half{
+	width:33%; 
+	height: 100%;
+	position: fixed;
+	background-color: #3a3d42
+}
+.home-right-half{
+	background-image:url(/image/Woman-Driving-Car-LRG.jpg);
+	width: 67%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	background-position: top center;
+	background-repeat:no-repeat;
+}
+.home-left-half-container {
+    width: 75%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+#loggy-logo{
+	width: inherit;
+	margin-top: 80px;
+}
+.static-left-column-container p {
+    float: left;
+    font-size: 35px;
+    padding-top: 0px;
+    line-height: 150%;
+}
+.buttons {
+	padding-top: 150px;
+}
+.login-button, .intro-button {
+    height: 50px;
+    width: 90%;
+    padding: 0 10px 0 10px;
+	margin-left:auto;
+	margin-right:auto;
+    font-size: 24px;
+    line-height: 200%;
+	text-align:center;
+}
+.login-button {
+	background-color:#ed5622;
+	display:block;
+	text-decoration:none;
+	color: #fff;
+}
+.intro-button {
+    background-color: #e8541e;
+	display:block;
+	text-decoration:none;
+	color: #fff;
+}
+.home-left-footer {
+	font-size: 17px;
+	padding-top: 150px;
+	padding-bottom: 60px;
+	text-align:center;
+}
+.home-left-footer a{
+	color:#fff;
+}
+#loggy-copy-right {
+	text-align:center;
+	color:#fff;
+}
+
+/*whats loggy page********************************************************************************************************/
+#header-sticky {
+	background: url(/image/Sticky-Menu-Bar-Graphic-Image.jpg);
+	height: 42px;
+	width: 100%;
+}
+#loggy-logo-sticky {
+	margin-top: 13px;
+}
+.menu-sticky{
+	float:right;
+	margin: 0;
+	list-style-type: none;
+}
+.menu-item, .menu-item-sticky{
+	float:left;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.menu-item-sticky{
+	line-height:42px;
+}
+.menu-item a, .menu-item-sticky a{
+	color:#fff;
+	display: block;
+	text-decoration:none;
+}
+.anchor-offset {
+	display: block;
+	position: relative;
+	top: -42px;
+}
+.section-title-container {
+	background: url(/image/Section-Heading-Background-Image.gif);
+	line-height: 103px;
+	text-align: center;
+}
+.static-left-column, .static-right-column {
+    display: table-cell;
+    vertical-align: middle;
+	width: 50%;
+}
+.static-right-head b {
+	font-size: 35px;
+	line-height: 170%;
+	
+}
+.static-right-content li{
+	line-height: 235%;
+	font-size: 23px;
+}
+.middle-nav-item{
+    width: 25%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+    padding: 0 30px 0 30px;
+	float: left;
+}
+.static-left-column img{
+	width:100%;
+}
+.static-right-content .gray-btn{
+	width:50%;
+	float: left;
+}
+#footer a {
+    text-decoration: none;
+    color: #5a5c62;
+}
+#footer {
+    padding-left: 107px;
+    font-size: 11px;
+    border-top: 1px solid #f6f6f6;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#footer span {
+    float: right;
+    margin-right: 200px;
+    color: #5a5c62;
+}
+
+/*login page********************************************************************************************************/
+.login-middle{
+	background-color:gray;
+	text-align:center;
+}
+.login-h1{
+	color:#fff;
+	font-size:28px;
+	margin-bottom:40px;
+}
+#infoMessage p{
+	color:#fff;
+}

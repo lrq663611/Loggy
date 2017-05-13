@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteBase /ci
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* index.php/$0 [PT,L]
+
+RewriteCond %{HTTP_HOST} ^www\.loggy\.com\.au$
+RewriteRule ^/?$ "http\:\/\/loggy\.com\.au\/" [R=301,L]

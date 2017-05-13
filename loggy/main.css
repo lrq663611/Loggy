@@ -1,0 +1,182 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{
+	font-family:'Raleway', sans-serif;;
+	color:#33363b;
+}
+
+ul{
+	list-style: disc;
+	margin-left: 3em;
+}
+li{
+	line-height: 25px;
+}
+b{
+	font-weight:600;
+}
+h2{
+	font-size:25px;
+}
+.h3-header{
+	font-size:20px;
+	font-weight:600;
+	margin-bottom:20px;
+}
+.full-width-container{
+	width: 1350px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+.add-padding-width {
+	padding-left: 100px;
+	padding-right: 100px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.add-padding-height{
+	padding-top:60px;
+	padding-bottom:60px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+p{
+	font-size:16px;
+	margin-bottom:15px;
+	line-height: 25px;
+}
+
+#header{
+	background: url(/loggy/Top-Menu-Background-Image.gif);
+	height: 163px;
+	position: relative;
+}
+#header-sticky{
+	background: url(/loggy/Sticky-Menu-Bar-Graphic-Image.jpg);
+	height: 42px;
+	width: 100%;
+	display:none;
+	position: fixed;
+	top: 0;
+}
+#header-background-overlay{
+	background: url(/loggy/Top-Menu-Bar-Graphic-Image.gif);
+	height: 163px;
+	width: 686px;
+	position:absolute;
+	top:0;
+	right:0;
+}
+#loggy-logo{
+	position: absolute;
+	top: 50%;
+	margin-top: -46px;
+	z-index:1;
+}
+#loggy-logo-sticky{
+	margin-top:13px;
+}
+.menu{
+	float:right;
+	z-index: 1;
+	position: relative;
+	margin-top: 75px;
+}
+.menu-sticky{
+	float:right;
+}
+.menu-item, .menu-item-sticky{
+	float:left;
+	margin-left: 40px;
+}
+.menu-item-sticky{
+	line-height:42px;
+}
+.menu-item a, .menu-item-sticky a{
+	color:#fff;
+	text-decoration:none;
+}
+.anchor-offset{
+	display: block;
+	position: relative;
+	top: -42px;
+}
+.section-title-container{
+	background: url(/loggy/Section-Heading-Background-Image.gif);
+	line-height: 103px;
+	text-align:center;
+}
+.static-left-column,.static-right-column{
+	display: table-cell;
+	vertical-align: middle;
+	width:50%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.static-left-column{
+	padding-right: 15px;
+}
+.static-left-column img{
+	width:100%;
+}
+.static-right-column{
+	padding-left: 15px;
+}
+.static-right-head{
+	font-size:23px;
+	margin-bottom:40px;
+}
+.landing-form-input{
+	width:100%;
+	background-color:#f6f6f6;
+	border:none;
+	font-family: 'Raleway', sans-serif;;
+	font-size:16px;
+	height: 35px;
+	line-height: 35px;
+	padding-left:20px;
+	padding-right:20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+	margin-bottom: 20px;
+}
+textarea.landing-form-input{
+	height:200px;
+}
+.placeholder {
+	color: #a6adb4;
+}
+#landing-form-submit{
+	background-image:url(/loggy/Submit-Bttn.gif);
+	cursor:pointer;
+	width: 260px;
+	height: 51px;
+	border: 0;
+	float: right;
+}
+#landing-form-submit:hover{
+	background-position:0 -51px;
+}
+#footer{
+	border-top:1px solid #f6f6f6;
+	font-size: 12px;
+	padding-top:60px;
+	padding-bottom:60px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;		
+}
+#footer>.full-width-container{
+	overflow:inherit;
+}
+#privacy-link{
+	border-right:1px solid #33363b; 
+	padding-right: 15px; 
+	margin-right: 10px;
+}
+#loggy-copy-right{
+	float: right;
+}

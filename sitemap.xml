@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://loggy.com.au/</loc>
+</url>
+<url>
+  <loc>http://loggy.com.au/LANDING-privacy-policy.php</loc>
+</url>
+<url>
+  <loc>http://loggy.com.au/privacy-policy.php</loc>
+</url>
+<url>
+  <loc>http://loggy.com.au/whats-loggy.php</loc>
+</url>
+<url>
+  <loc>http://loggy.com.au/contact-us.php</loc>
+</url>
+<url>
+  <loc>http://loggy.com.au/auth/login</loc>
+</url>
+<url>
+  <loc>http://loggy.com.au/terms.php</loc>
+</url>
+<url>
+  <loc>http://loggy.com.au/auth/forgot_password</loc>
+</url>
+</urlset>
